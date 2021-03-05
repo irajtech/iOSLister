@@ -12,6 +12,7 @@
 		9109CEF525F24A250032BBFA /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9109CEF425F24A250032BBFA /* Reusable.swift */; };
 		9109CEF825F24A430032BBFA /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9109CEF725F24A430032BBFA /* NibLoadable.swift */; };
 		9109CEFD25F24BF00032BBFA /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9109CEFC25F24BF00032BBFA /* UITableView+Reusable.swift */; };
+		9109CF0325F2512F0032BBFA /* LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9109CF0225F2512F0032BBFA /* LoadingIndicator.swift */; };
 		91355B1F25F231AF00DD092C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91355B1E25F231AF00DD092C /* AppDelegate.swift */; };
 		91355B2125F231AF00DD092C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91355B2025F231AF00DD092C /* SceneDelegate.swift */; };
 		91355B2325F231AF00DD092C /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91355B2225F231AF00DD092C /* ListViewController.swift */; };
@@ -37,6 +38,7 @@
 		9109CEF425F24A250032BBFA /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
 		9109CEF725F24A430032BBFA /* NibLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
 		9109CEFC25F24BF00032BBFA /* UITableView+Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Reusable.swift"; sourceTree = "<group>"; };
+		9109CF0225F2512F0032BBFA /* LoadingIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingIndicator.swift; sourceTree = "<group>"; };
 		91355B1B25F231AF00DD092C /* Lister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91355B1E25F231AF00DD092C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91355B2025F231AF00DD092C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 		91355B5225F2385900DD092C /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				9109CF0225F2512F0032BBFA /* LoadingIndicator.swift */,
 				9109CEFC25F24BF00032BBFA /* UITableView+Reusable.swift */,
 				9109CEF425F24A250032BBFA /* Reusable.swift */,
 				9109CEF725F24A430032BBFA /* NibLoadable.swift */,
@@ -259,6 +262,7 @@
 				9109CEF525F24A250032BBFA /* Reusable.swift in Sources */,
 				91355B2125F231AF00DD092C /* SceneDelegate.swift in Sources */,
 				91355B4025F233CD00DD092C /* Resource.swift in Sources */,
+				9109CF0325F2512F0032BBFA /* LoadingIndicator.swift in Sources */,
 				91355B4C25F2371C00DD092C /* String+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +413,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X2J5768T7W;
 				INFOPLIST_FILE = Lister/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -428,6 +433,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X2J5768T7W;
 				INFOPLIST_FILE = Lister/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -2,7 +2,7 @@
 //  File.swift
 //  Lister
 //
-//  Created by Rajkumar Kothandaraman on 05/03/2021.
+//  Created by Raj on 05/03/2021.
 //
 
 import UIKit
@@ -21,7 +21,7 @@ extension ListViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: PostTableViewCell.reuseIdentifier) as! PostTableViewCell
+        let cell =  tableView.dequeueReusableCell(for: indexPath) as PostTableViewCell
         
         guard let posts = posts else {
             return cell
