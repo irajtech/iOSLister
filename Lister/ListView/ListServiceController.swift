@@ -18,7 +18,10 @@ extension ListViewController {
                 return
             }
            
-            let post = posts
+            self.posts = posts
+            DispatchQueue.main.async {
+                self.postTableView.reloadData()
+            }
         }
         
     }
