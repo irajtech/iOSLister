@@ -17,6 +17,11 @@ class PostTableViewCell: UITableViewCell, NibReusable {
         super.awakeFromNib()
         // Initialization code
     }
+    
+    func configureCell(post: PostElement) {
+        self.titleName.text =  post.title
+        self.messageBody.text = post.body
+    }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)

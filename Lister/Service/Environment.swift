@@ -23,7 +23,7 @@ public enum APIEnvironment {
 }
 
 enum ServiceType {
-    case post, subscriber
+    case post(Int), subscriber
 }
 
 protocol Environment {
@@ -60,13 +60,8 @@ extension Environment {
     
     var resourceURL: URL {
         switch serviceType {
-        case .post:
-             #if DEBUG || BETA
-            return baseUrl.appendingPathComponent("/posts")
-            #else
-            return baseUrl.appendingPathComponent("/posts")
-            #endif
-            
+        case .post(_):
+             return baseUrl.appendingPathComponent("/posts/")
         case .subscriber:
             let queryItems = [URLQueryItem(name: "tenant", value: "th")]
             var urlComps = URLComponents(string: baseUrl.absoluteString)!

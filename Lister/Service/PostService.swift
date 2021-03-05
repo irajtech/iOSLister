@@ -10,8 +10,10 @@ import Foundation
 
 struct PostService: Environment {
     
-    var serviceType: ServiceType {
-        return .post
+    internal var serviceType: ServiceType
+    
+    init(pageNumber: Int = 10) {
+        serviceType = ServiceType.post(pageNumber)
     }
     
     func fetchPosts(completion: (([PostElement]?, Error?) -> Void)?) {

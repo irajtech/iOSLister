@@ -9,24 +9,21 @@ import Foundation
 import UIKit
 
 extension ListViewController {
-    
-    
-  internal func postService() {
-        
-    LoadingIndicator.sharedInstance.showLoaderonView(view: self.view)
-        post.fetchPosts { (posts, error) in
-            guard let posts = posts else {
+    internal func postService() {
+        LoadingIndicator.sharedInstance.showLoaderonView(view: self.view)
+       PostService(pageNumber: pageNumber).fetchPosts { (posts, error) in
+            guard let postData = posts else {
                 return
             }
-           
-            self.posts = posts
+            
+            self.loadingStatus = postData.count > 1 ? .haveMore : .finished
+            self.posts.append(contentsOf: postData)
             DispatchQueue.main.async {
                 LoadingIndicator.sharedInstance.removeLoader()
                 self.postTableView.reloadData()
             }
         }
-        
     }
-    
-    
+
+
 }
