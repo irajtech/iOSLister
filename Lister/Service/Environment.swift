@@ -7,24 +7,6 @@
 
 import Foundation
 
-public enum APIEnvironment {
-    case debug, beta, release
-    
-    var baseURL: URL {
-        switch self {
-        case .debug:
-            return URL(string: "https://jsonplaceholder.typicode.com")!
-        case .beta:
-            return URL(string: "https://jsonplaceholder.typicode.com")!
-        case .release:
-            return URL(string: "https://jsonplaceholder.typicode.com")!
-        }
-    }
-}
-
-enum ServiceType {
-    case post(Int), subscriber
-}
 
 protocol Environment {
     var standardHeaders: [String: String] { get }
@@ -61,15 +43,28 @@ extension Environment {
     var resourceURL: URL {
         switch serviceType {
         case .post(_):
-             return baseUrl.appendingPathComponent("/posts/")
-        case .subscriber:
-            let queryItems = [URLQueryItem(name: "tenant", value: "th")]
-            var urlComps = URLComponents(string: baseUrl.absoluteString)!
-            urlComps.queryItems = queryItems
-            urlComps.path = "/subscriptions"
-            let result = urlComps.url!
-            return result
-        
+             return baseUrl.appendingPathComponent("/posts")
+        case .comment:
+            return baseUrl.appendingPathComponent("/comments")
         }
     }
 }
+
+
+private enum APIEnvironment {
+    case debug, beta, release
+    
+    var baseURL: URL {
+        switch self {
+        case .debug:
+            return URL(string: "https://jsonplaceholder.typicode.com")!
+        case .beta:
+            return URL(string: "https://jsonplaceholder.typicode.com")!
+        case .release:
+            return URL(string: "https://jsonplaceholder.typicode.com")!
+        }
+    }
+}
+
+
+

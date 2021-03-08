@@ -14,6 +14,7 @@
 		9109CEFD25F24BF00032BBFA /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9109CEFC25F24BF00032BBFA /* UITableView+Reusable.swift */; };
 		9109CF0325F2512F0032BBFA /* LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9109CF0225F2512F0032BBFA /* LoadingIndicator.swift */; };
 		9109CF0725F255D60032BBFA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9109CF0625F255D60032BBFA /* Constants.swift */; };
+		9109CF0A25F26F310032BBFA /* ServiceTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9109CF0925F26F310032BBFA /* ServiceTypes.swift */; };
 		91355B1F25F231AF00DD092C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91355B1E25F231AF00DD092C /* AppDelegate.swift */; };
 		91355B2125F231AF00DD092C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91355B2025F231AF00DD092C /* SceneDelegate.swift */; };
 		91355B2325F231AF00DD092C /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91355B2225F231AF00DD092C /* ListViewController.swift */; };
@@ -41,6 +42,7 @@
 		9109CEFC25F24BF00032BBFA /* UITableView+Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Reusable.swift"; sourceTree = "<group>"; };
 		9109CF0225F2512F0032BBFA /* LoadingIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingIndicator.swift; sourceTree = "<group>"; };
 		9109CF0625F255D60032BBFA /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9109CF0925F26F310032BBFA /* ServiceTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceTypes.swift; sourceTree = "<group>"; };
 		91355B1B25F231AF00DD092C /* Lister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91355B1E25F231AF00DD092C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91355B2025F231AF00DD092C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 			children = (
 				91355B5A25F23BA400DD092C /* PostService.swift */,
 				91355B5625F23B8C00DD092C /* Environment.swift */,
+				9109CF0925F26F310032BBFA /* ServiceTypes.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 				9109CEF825F24A430032BBFA /* NibLoadable.swift in Sources */,
 				91355B4325F233D400DD092C /* Request.swift in Sources */,
 				91355B2325F231AF00DD092C /* ListViewController.swift in Sources */,
+				9109CF0A25F26F310032BBFA /* ServiceTypes.swift in Sources */,
 				9109CEFD25F24BF00032BBFA /* UITableView+Reusable.swift in Sources */,
 				91355B3525F231CE00DD092C /* ListServiceController.swift in Sources */,
 				91355B1F25F231AF00DD092C /* AppDelegate.swift in Sources */,

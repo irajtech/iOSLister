@@ -18,7 +18,6 @@ struct PostService: Environment {
     
     func fetchPosts(completion: (([PostElement]?, Error?) -> Void)?) {
         let resource = Resource(method: .get, headers: [:], url: resourceURL)
-        
         Service<[PostElement]>.perform(resource) { result in
             switch result {
             case .success(let result):
