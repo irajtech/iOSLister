@@ -32,6 +32,30 @@
 		91355B5725F23B8C00DD092C /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91355B5625F23B8C00DD092C /* Environment.swift */; };
 		91355B5B25F23BA400DD092C /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91355B5A25F23BA400DD092C /* PostService.swift */; };
 		91355B5F25F23D1A00DD092C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91355B5E25F23D1900DD092C /* Post.swift */; };
+		917789D626147A8700322BE6 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9109CEF725F24A430032BBFA /* NibLoadable.swift */; };
+		917789D726147A8700322BE6 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91355B4225F233D400DD092C /* Request.swift */; };
+		917789D926147A8700322BE6 /* ServiceTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9109CF0925F26F310032BBFA /* ServiceTypes.swift */; };
+		917789DA26147A8700322BE6 /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9109CEFC25F24BF00032BBFA /* UITableView+Reusable.swift */; };
+		917789DC26147A8700322BE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91355B1E25F231AF00DD092C /* AppDelegate.swift */; };
+		917789DD26147A8700322BE6 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91355B5625F23B8C00DD092C /* Environment.swift */; };
+		917789DE26147A8700322BE6 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9109CEED25F244B40032BBFA /* PostTableViewCell.swift */; };
+		917789DF26147A8700322BE6 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91355B5A25F23BA400DD092C /* PostService.swift */; };
+		917789E026147A8700322BE6 /* Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91355B4825F2347800DD092C /* Parameters.swift */; };
+		917789E126147A8700322BE6 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91355B4525F2343500DD092C /* HTTPMethod.swift */; };
+		917789E226147A8700322BE6 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91355B5E25F23D1900DD092C /* Post.swift */; };
+		917789E326147A8700322BE6 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91355B3C25F2321200DD092C /* Service.swift */; };
+		917789E426147A8700322BE6 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9109CEF425F24A250032BBFA /* Reusable.swift */; };
+		917789E526147A8700322BE6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9109CF0625F255D60032BBFA /* Constants.swift */; };
+		917789E626147A8700322BE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91355B2025F231AF00DD092C /* SceneDelegate.swift */; };
+		917789E726147A8700322BE6 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91355B3F25F233CD00DD092C /* Resource.swift */; };
+		917789E826147A8700322BE6 /* LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9109CF0225F2512F0032BBFA /* LoadingIndicator.swift */; };
+		917789E926147A8700322BE6 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91355B4B25F2371C00DD092C /* String+Ext.swift */; };
+		917789EC26147A8700322BE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91355B2925F231B100DD092C /* LaunchScreen.storyboard */; };
+		917789ED26147A8700322BE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91355B2725F231B100DD092C /* Assets.xcassets */; };
+		917789EF26147A8700322BE6 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9109CEEE25F244B40032BBFA /* PostTableViewCell.xib */; };
+		91778A0026147B3900322BE6 /* ViewController_MVP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917789FF26147B3900322BE6 /* ViewController_MVP.swift */; };
+		91778A0726147B6D00322BE6 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91778A0626147B6D00322BE6 /* Presenter.swift */; };
+		91778A112614889D00322BE6 /* Lister_MVP.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91778A102614889D00322BE6 /* Lister_MVP.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,10 +86,22 @@
 		91355B5625F23B8C00DD092C /* Environment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		91355B5A25F23BA400DD092C /* PostService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
 		91355B5E25F23D1900DD092C /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		917789F326147A8700322BE6 /* Lister_MVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lister_MVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		917789F426147A8700322BE6 /* Lister-MVP-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Lister-MVP-Info.plist"; path = "/Users/rkotha/Desktop/Test/Lister/Lister-MVP-Info.plist"; sourceTree = "<absolute>"; };
+		917789FF26147B3900322BE6 /* ViewController_MVP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_MVP.swift; sourceTree = "<group>"; };
+		91778A0626147B6D00322BE6 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		91778A102614889D00322BE6 /* Lister_MVP.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lister_MVP.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		91355B1825F231AF00DD092C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		917789EA26147A8700322BE6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -96,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				91355B1B25F231AF00DD092C /* Lister.app */,
+				917789F326147A8700322BE6 /* Lister_MVP.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,13 +144,13 @@
 				91355B5225F2385900DD092C /* Utility */,
 				91355B5125F2384B00DD092C /* API */,
 				91355B4F25F2382900DD092C /* Factory */,
-				91355B5025F2383900DD092C /* ListView */,
-				91355B2425F231AF00DD092C /* Main.storyboard */,
+				91355B5025F2383900DD092C /* ListViewMVCE */,
 				91355B2725F231B100DD092C /* Assets.xcassets */,
 				91355B2925F231B100DD092C /* LaunchScreen.storyboard */,
 				91355B2C25F231B100DD092C /* Info.plist */,
 				91355B6125F23D1E00DD092C /* Models */,
 				9109CEFA25F24A670032BBFA /* Cells */,
+				91778A0326147B3D00322BE6 /* ListView_MVP */,
 			);
 			path = Lister;
 			sourceTree = "<group>";
@@ -127,14 +164,15 @@
 			path = Factory;
 			sourceTree = "<group>";
 		};
-		91355B5025F2383900DD092C /* ListView */ = {
+		91355B5025F2383900DD092C /* ListViewMVCE */ = {
 			isa = PBXGroup;
 			children = (
 				91355B2225F231AF00DD092C /* ListViewController.swift */,
 				91355B3425F231CE00DD092C /* ListServiceController.swift */,
 				91355B3825F231E300DD092C /* ListDataController.swift */,
+				91355B2425F231AF00DD092C /* Main.storyboard */,
 			);
-			path = ListView;
+			path = ListViewMVCE;
 			sourceTree = "<group>";
 		};
 		91355B5125F2384B00DD092C /* API */ = {
@@ -180,6 +218,33 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		91778A0326147B3D00322BE6 /* ListView_MVP */ = {
+			isa = PBXGroup;
+			children = (
+				91778A102614889D00322BE6 /* Lister_MVP.storyboard */,
+				917789F426147A8700322BE6 /* Lister-MVP-Info.plist */,
+				91778A212614B69B00322BE6 /* View */,
+				91778A242614B6A400322BE6 /* Presenter */,
+			);
+			path = ListView_MVP;
+			sourceTree = "<group>";
+		};
+		91778A212614B69B00322BE6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				917789FF26147B3900322BE6 /* ViewController_MVP.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		91778A242614B6A400322BE6 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				91778A0626147B6D00322BE6 /* Presenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -198,6 +263,23 @@
 			name = Lister;
 			productName = Lister;
 			productReference = 91355B1B25F231AF00DD092C /* Lister.app */;
+			productType = "com.apple.product-type.application";
+		};
+		917789D326147A8700322BE6 /* Lister_MVP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 917789F026147A8700322BE6 /* Build configuration list for PBXNativeTarget "Lister_MVP" */;
+			buildPhases = (
+				917789D426147A8700322BE6 /* Sources */,
+				917789EA26147A8700322BE6 /* Frameworks */,
+				917789EB26147A8700322BE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lister_MVP;
+			productName = Lister;
+			productReference = 917789F326147A8700322BE6 /* Lister_MVP.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -228,6 +310,7 @@
 			projectRoot = "";
 			targets = (
 				91355B1A25F231AF00DD092C /* Lister */,
+				917789D326147A8700322BE6 /* Lister_MVP */,
 			);
 		};
 /* End PBXProject section */
@@ -241,6 +324,17 @@
 				91355B2825F231B100DD092C /* Assets.xcassets in Resources */,
 				91355B2625F231AF00DD092C /* Main.storyboard in Resources */,
 				9109CEF025F244B40032BBFA /* PostTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		917789EB26147A8700322BE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				917789EC26147A8700322BE6 /* LaunchScreen.storyboard in Resources */,
+				917789ED26147A8700322BE6 /* Assets.xcassets in Resources */,
+				91778A112614889D00322BE6 /* Lister_MVP.storyboard in Resources */,
+				917789EF26147A8700322BE6 /* PostTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +366,33 @@
 				91355B4025F233CD00DD092C /* Resource.swift in Sources */,
 				9109CF0325F2512F0032BBFA /* LoadingIndicator.swift in Sources */,
 				91355B4C25F2371C00DD092C /* String+Ext.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		917789D426147A8700322BE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				917789D626147A8700322BE6 /* NibLoadable.swift in Sources */,
+				917789D726147A8700322BE6 /* Request.swift in Sources */,
+				917789D926147A8700322BE6 /* ServiceTypes.swift in Sources */,
+				917789DA26147A8700322BE6 /* UITableView+Reusable.swift in Sources */,
+				917789DC26147A8700322BE6 /* AppDelegate.swift in Sources */,
+				91778A0026147B3900322BE6 /* ViewController_MVP.swift in Sources */,
+				917789DD26147A8700322BE6 /* Environment.swift in Sources */,
+				91778A0726147B6D00322BE6 /* Presenter.swift in Sources */,
+				917789DE26147A8700322BE6 /* PostTableViewCell.swift in Sources */,
+				917789DF26147A8700322BE6 /* PostService.swift in Sources */,
+				917789E026147A8700322BE6 /* Parameters.swift in Sources */,
+				917789E126147A8700322BE6 /* HTTPMethod.swift in Sources */,
+				917789E226147A8700322BE6 /* Post.swift in Sources */,
+				917789E326147A8700322BE6 /* Service.swift in Sources */,
+				917789E426147A8700322BE6 /* Reusable.swift in Sources */,
+				917789E526147A8700322BE6 /* Constants.swift in Sources */,
+				917789E626147A8700322BE6 /* SceneDelegate.swift in Sources */,
+				917789E726147A8700322BE6 /* Resource.swift in Sources */,
+				917789E826147A8700322BE6 /* LoadingIndicator.swift in Sources */,
+				917789E926147A8700322BE6 /* String+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +574,46 @@
 			};
 			name = Release;
 		};
+		917789F126147A8700322BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X2J5768T7W;
+				INFOPLIST_FILE = "Lister-MVP-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raj.iOSLister;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		917789F226147A8700322BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X2J5768T7W;
+				INFOPLIST_FILE = "Lister-MVP-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raj.iOSLister;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -470,6 +631,15 @@
 			buildConfigurations = (
 				91355B3025F231B100DD092C /* Debug */,
 				91355B3125F231B100DD092C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		917789F026147A8700322BE6 /* Build configuration list for PBXNativeTarget "Lister_MVP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				917789F126147A8700322BE6 /* Debug */,
+				917789F226147A8700322BE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
